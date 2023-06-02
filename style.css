@@ -14,3 +14,19 @@ body * {
   width: 360px; /*largura*/
   margin: 56px auto 0px; /*top laterais bottom*/
 }
+
+/* profile box */
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px; /*altura de linha*/
+  margin-top: 8px;
+}
+
+#profile img {
+  width: 112px;
+}
