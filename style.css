@@ -1,0 +1,16 @@
+body {
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  color: #ffffff;
+}
+
+#container {
+  width: 360px; /*largura*/
+  margin: 56px auto 0px; /*top laterais bottom*/
+}
