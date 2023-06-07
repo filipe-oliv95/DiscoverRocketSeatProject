@@ -28,6 +28,7 @@ body * {
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 #container {
@@ -75,12 +76,17 @@ body {
   transform: translateY(-50%);
   top: 50%;
   left: 0;
+
+  animation: slide-back 0.4s;
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.4s forwards;
   border: 1px solid var(--surface-color);
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
@@ -153,4 +159,24 @@ ul li a:hover {
 footer {
   padding: 24px;
   text-align: center;
+}
+
+/*media queries*/
+
+/*animation*/
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
 }
