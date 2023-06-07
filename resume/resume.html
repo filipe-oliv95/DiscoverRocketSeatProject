@@ -5,20 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume Filipe</title>
-    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <link rel="stylesheet" href="./resume.css" />
   </head>
   <body>
     <div id="container">
       <div id="container-left">
-        <img src="./assets/profile-pic.png" alt="profile picture" />
+        <img src="../assets/profile-pic-white.png" alt="profile picture" />
         <h1>FILIPE OLIVEIRA</h1>
-        <span>-----------------------------------------------------</span>
-        <h2>ESTUDANTE DE TECNOLOGIA</h2>
+        <span class="line-one"></span>
+        <h2>RESIDENTE EM TIC</h2>
 
         <div id="profile">
           <div class="icon-title-box">
-            <ion-icon name="person-outline"></ion-icon>
-            <h3>SOBRE MIM</h3>
+            <div class="icon-title">
+              <ion-icon name="person-outline"></ion-icon>
+              <h3>SOBRE MIM</h3>
+            </div>
+            <span></span>
           </div>
           <span
             >Meu nome é Filipe, tenho 28 anos de idade, e sou formado em
@@ -32,8 +35,11 @@
 
         <div id="life-mission">
           <div class="icon-title-box">
-            <ion-icon name="fitness-outline"></ion-icon>
-            <h3>MISSÃO DE VIDA</h3>
+            <div class="icon-title">
+              <ion-icon name="fitness-outline"></ion-icon>
+              <h3>MISSÃO DE VIDA</h3>
+            </div>
+            <span></span>
           </div>
           <span
             >Minha missão de vida é influenciar positivamente a vida de pessoas
@@ -47,19 +53,24 @@
 
         <div id="contact">
           <div class="icon-title-box">
-            <ion-icon name="person-circle-outline"></ion-icon>
-            <h3>CONTATOS</h3>
+            <div class="icon-title">
+              <ion-icon name="person-circle-outline"></ion-icon>
+              <h3>CONTATOS</h3>
+            </div>
+            <span></span>
           </div>
           <ul>
             <li>
               <a href="#">
                 <ion-icon name="mail-outline"></ion-icon>
-                <span>filipe.oliv95@gmail.com</span>
+                <span>filipec.oliveira95@gmail.com</span>
               </a>
             </li>
             <li>
-              <ion-icon name="call-outline"></ion-icon>
-              <span>+55 (24) 98100-1008</span>
+              <a href="#">
+                <ion-icon name="call-outline"></ion-icon>
+                <span>+55 (24) 98100-1008</span>
+              </a>
             </li>
             <li>
               <a
@@ -79,42 +90,51 @@
           </ul>
         </div>
       </div>
-    </div>
 
-    <div id="container-right">
-      <div id="str-wkns">
-        <!--colocar lado a lado-->
-        <div id="strengths">
-          <div class="icon-title-box">
-            <ion-icon name="arrow-up-outline"></ion-icon>
-            <h3>FORÇAS</h3>
+      <div id="container-right">
+        <div id="str-wkns">
+          <!--colocar lado a lado-->
+          <div id="strengths">
+            <div class="icon-title-box">
+              <div class="icon-title">
+                <ion-icon name="arrow-up-outline"></ion-icon>
+                <h3>FORÇAS</h3>
+              </div>
+              <span></span>
+            </div>
+            <ul>
+              <li>Facilidade de organização e gestão do tempo;</li>
+              <li>Criatividade na solução de problemas;</li>
+              <li>Interesse no aprendizado e evolução contínua;</li>
+            </ul>
           </div>
-          <ul>
-            <li>Facilidade de organização e gestão do tempo;</li>
-            <li>Criatividade na solução de problemas;</li>
-            <li>Interesse no aprendizado e evolução contínua;</li>
-          </ul>
-        </div>
-        <div id="weaknesses">
-          <div class="icon-title-box">
-            <ion-icon name="arrow-down-outline"></ion-icon>
-            <h3>FRAQUEZAS</h3>
+          <div id="weaknesses">
+            <div class="icon-title-box">
+              <div class="icon-title">
+                <ion-icon name="arrow-down-outline"></ion-icon>
+                <h3>FRAQUEZAS</h3>
+              </div>
+              <span></span>
+            </div>
+            <ul>
+              <li>Impaciência em certos momentos de trabalho em equipe;</li>
+              <li>Sinto que deveria ser mais conciso na comunicação;</li>
+              <li>
+                Me concentro demais nos detalhes, podendo extender o tempo de
+                trabalho;
+              </li>
+            </ul>
           </div>
-          <ul>
-            <li>Impaciência em certos momentos de trabalho em equipe;</li>
-            <li>Sinto que deveria ser mais conciso na comunicação;</li>
-            <li>
-              Me concentro demais nos detalhes, podendo estender o tempo de
-              trabalho;
-            </li>
-          </ul>
         </div>
-      </div>
 
-      <div id="constant-progress">
-        <div class="icon-title-box">
-          <ion-icon name="trending-up-outline"></ion-icon>
-          <h3>MEU TRABALHO PARA CONSTANTE PROGRESSO</h3>
+        <div id="constant-progress">
+          <div class="icon-title-box">
+            <div class="icon-title">
+              <ion-icon name="trending-up-outline"></ion-icon>
+              <h3>MEU TRABALHO PARA CONSTANTE PROGRESSO</h3>
+            </div>
+            <span></span>
+          </div>
           <span
             >Por ter sido uma pessoa muito tímida ao longo da infância e
             adolescência, busco desenvolver o autoconhecimento e comunicação
@@ -127,12 +147,15 @@
             o Diário de Bordo e aplicativos de controle de hábitos.</span
           >
         </div>
-      </div>
 
-      <div id="values">
-        <div class="icon-title-box">
-          <ion-icon name="diamond-outline"></ion-icon>
-          <h3>VALORES</h3>
+        <div id="values">
+          <div class="icon-title-box">
+            <div class="icon-title">
+              <ion-icon name="diamond-outline"></ion-icon>
+              <h3>VALORES</h3>
+            </div>
+            <span></span>
+          </div>
           <ul>
             <li>Saúde</li>
             <li>Honestidade</li>
@@ -140,46 +163,56 @@
             <li>Positividade</li>
           </ul>
         </div>
-      </div>
 
-      <div id="beliefs">
-        <div class="icon-title-box">
-          <ion-icon name="diamond-outline"></ion-icon>
-          <h3>CRENÇAS</h3>
+        <div id="beliefs">
+          <div class="icon-title-box">
+            <div class="icon-title">
+              <ion-icon name="color-wand-outline"></ion-icon>
+              <h3>CRENÇAS</h3>
+            </div>
+            <span></span>
+          </div>
           <ul>
             <li>
-              Acredito que as saúdes física e mental estão diretamente
+              Acredito que as <b>saúdes</b> física e mental estão diretamente
               relacionadas com o desenvolvimento pessoal e profissional;
             </li>
             <li>
-              Tenho uma visão de que o respeito e a honestidade geram admiração,
-              e tornam as relações interpessoais mais integras e verdadeiras;
+              Tenho uma visão de que o <b>respeito</b> e a
+              <b>honestidade</b> geram admiração, e tornam as relações
+              interpessoais mais íntegras e verdadeiras;
             </li>
             <li>
-              Eu acredito que todos querem pessoas positivas por perto, que
-              conseguem visualizar algo positivo até nos maiores problemas;
+              Eu acredito que todos querem pessoas <b>positivas</b> por perto,
+              que conseguem visualizar algo positivo mesmo diante dos maiores
+              problemas;
             </li>
           </ul>
         </div>
-      </div>
 
-      <div id="goals">
-        <ion-icon name="flag-outline"></ion-icon>
-        <h3>METAS DE CURTO, MÉDIO E LONGO PRAZO</h3>
-        <div id="container-goals">
-          <div id="short-term">
-            <h3>CURTO (DEZ 23)</h3>
-            <ul>
-              <li>
-                Estar empregado na área da tecnologia em uma das empresas
-                parceiras do Serratec;
-              </li>
-              <li>Ler 5 livros relacionados à desenvolvimento pessoal;</li>
-              <li>
-                Definir uma programação constante de atualização de carreira
-                para o longo prazo;
-              </li>
-            </ul>
+        <div id="goals">
+          <div class="icon-title-box">
+            <div class="icon-title">
+              <ion-icon name="flag-outline"></ion-icon>
+              <h3>METAS DE CURTO, MÉDIO E LONGO PRAZO</h3>
+            </div>
+            <span></span>
+          </div>
+          <div id="container-goals">
+            <div id="short-term">
+              <h3>CURTO (DEZ 23)</h3>
+              <ul>
+                <li>
+                  Estar empregado na área da tecnologia em uma das empresas
+                  parceiras do Serratec;
+                </li>
+                <li>Ler 5 livros relacionados à desenvolvimento pessoal;</li>
+                <li>
+                  Definir uma programação constante de atualização de carreira
+                  para o longo prazo;
+                </li>
+              </ul>
+            </div>
             <div id="mid-term">
               <h3>MÉDIO (DEZ 24)</h3>
               <ul>
@@ -209,7 +242,6 @@
         </div>
       </div>
     </div>
-
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
